@@ -144,6 +144,8 @@ const result = await someAsyncCall();
 return result;
 } catch (err) {
 console.log('Promise rejected:',);
+	catch (err) {
+            console.log(err)
 //Handle the rejected Promise
   } 
 }
