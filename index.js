@@ -143,7 +143,7 @@ async function startalfa() {
             console.log(err)
         }
 	         async function chatUpdate() {
-chat {
+chat 
 const result = await chatUpdateAsyncCall();
 return result;
 } catch (err) {
