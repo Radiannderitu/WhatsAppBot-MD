@@ -138,8 +138,15 @@ async function startalfa() {
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(AlienAlfa, mek, store)
         require("./alfa")(AlienAlfa, m, chatUpdate, store)
-        } catch (err) {
-            console.log(err)
+        } async function myFunction() {
+try {
+const result = await someAsyncCall();
+return result;
+} catch (err) {
+console.log('Promise rejected:',);
+//Handle the rejected Promise
+  } 
+}
         }
     })
 //|⬡════════════════════════════════════════════|❝ Ⓒ𝙰𝙻𝙸𝙴𝙽 𝙰𝙻𝙵𝙰 𝙱𝙾𝚃 𝙱𝚈 𝚃𝙾𝚇𝙸𝙲 𝙰𝙻𝙸𝙴𝙽™ ❞|═══════════════════════════════════════════⬡|
