@@ -142,15 +142,6 @@ async function startalfa() {
 	catch (err) {
             console.log(err)
         }
-	         async function chatUpdate() {
-chat 
-const result = await chatUpdateAsyncCall();
-return result;
-} catch (err) {
-console.log('Promise rejected:',);
-//Handle the rejected Promise
-  } 
-}
     })
 //|⬡════════════════════════════════════════════|❝ Ⓒ𝙰𝙻𝙸𝙴𝙽 𝙰𝙻𝙵𝙰 𝙱𝙾𝚃 𝙱𝚈 𝚃𝙾𝚇𝙸𝙲 𝙰𝙻𝙸𝙴𝙽™ ❞|═══════════════════════════════════════════⬡|
 
